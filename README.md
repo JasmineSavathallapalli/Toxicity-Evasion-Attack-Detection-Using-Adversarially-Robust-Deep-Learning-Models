@@ -5,8 +5,6 @@ This project focuses on detecting toxic and harmful content in online platforms 
 
 The proposed system introduces a novel architecture called **U-EARDNet (Unified Evasion-Aware Robust Detection Network)** that enhances the reliability of automated content moderation systems.
 
----
-
 ## 🎯 Problem Statement
 Most existing toxicity detection systems:
 - Focus only on **text-based analysis**
@@ -15,8 +13,6 @@ Most existing toxicity detection systems:
 
 This project solves these issues by building a **robust multimodal toxicity detection system**.
 
----
-
 ## 🧠 Proposed Solution
 The project proposes a **multimodal deep learning framework** that:
 - Uses **DistilBERT** for text understanding
@@ -24,8 +20,6 @@ The project proposes a **multimodal deep learning framework** that:
 - Combines both using a **gated feature fusion mechanism**
 
 👉 Final Model: **U-EARDNet**
-
----
 
 ## 🏗️ System Architecture
 The system follows these steps:
@@ -39,15 +33,11 @@ The system follows these steps:
 5. Classification (Toxic / Non-Toxic)
 6. Evaluation (Accuracy, Precision, Recall, F1)
 
----
-
 ## 📊 Datasets Used
 - **Jigsaw Toxic Comment Dataset** (Text-based toxicity)
 - **Facebook Hateful Memes Dataset** (Multimodal toxicity)
 
 📌 *Note: Dataset is not included in this repository due to size.*
-
----
 
 ## ⚙️ Tech Stack
 - Python  
@@ -57,8 +47,6 @@ The system follows these steps:
 - NumPy, Pandas  
 - OpenCV, PIL  
 - Matplotlib, Seaborn  
-
----
 
 ## 🔬 Models Used
 ### 🔹 Baseline Models
@@ -71,8 +59,6 @@ The system follows these steps:
   - Gated feature fusion
   - Handles text, image, or both
 
----
-
 ## 🧪 Methodology
 - Data preprocessing (normalization, tokenization)
 - Binary toxicity classification
@@ -80,8 +66,6 @@ The system follows these steps:
 - Feature extraction using deep learning models
 - Evasion-aware training (text perturbations)
 - Multi-task learning for robustness
-
----
 
 ## 📈 Performance
 - Baseline models perform well individually  
@@ -91,8 +75,6 @@ The system follows these steps:
 
 👉 The model shows strong robustness against adversarial attacks and improves real-world reliability.
 
----
-
 ## 📊 Evaluation Metrics
 - Accuracy  
 - Precision  
@@ -100,16 +82,11 @@ The system follows these steps:
 - F1 Score  
 - Confusion Matrix  
 
----
-
 ## 🔍 Key Features
 - Multimodal learning (text + image)
 - Adversarial robustness
 - Deep learning-based architecture
 - Real-world applicable content moderation system
-
-
----
 
 ## ⚠️ Note
 - Dataset is not uploaded due to size limitations
@@ -117,15 +94,11 @@ The system follows these steps:
   - https://www.kaggle.com/competitions/jigsaw-toxic-comment-classification-challenge
   - https://www.kaggle.com/datasets/parthplc/facebook-hateful-meme-dataset
 
----
-
 ## 🚀 Future Improvements
 - Real-time deployment system  
 - Multilingual toxicity detection  
 - Improved explainability  
 - Optimization for low-resource environments  
-
----
 
 ## 👩‍💻 Author
 **Savathallapalli Jasmine**  
